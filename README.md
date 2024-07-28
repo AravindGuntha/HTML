@@ -11,5 +11,9 @@ Tags are of two types,<br>
 1. Paired Tag -> it contains the Opening Tag and Closing Tag. <br>
 2. Un-paired / Single Tag -> it doesn't have the closing Tag. It's a independent tag.<br>
 <br>
-Each tag is addressed as an Element.
+Each tag is addressed as an Element.<br>
+We can categorize/identify the tags in two ways<br>
+1. By Class <br>
+2. By Id <br>
+This categorization gives flexibility to customize the tags. And in the later purposes we also use this fetch the content of any tag (in java script.)<br>
 </p>

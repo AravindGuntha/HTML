@@ -16,4 +16,11 @@ We can categorize/identify the tags in two ways<br>
 1. By Class <br>
 2. By Id <br>
 This categorization gives flexibility to customize the tags. And in the later purposes we also use this fetch the content of any tag (in java script.)<br>
+
+Creating a WebPage comprises of a lot of things,<br>
+1. Arranging the elements - meaning, which element takes which place in the page<br>
+2. Styling the element - what size and color the element needs to be in<br>
+3. Adding the behaviour for each element - what happens when particular element is being clicked. <br>
+<br><br>
+
 </p>

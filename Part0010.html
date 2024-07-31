@@ -1,0 +1,95 @@
+<!--This page is all about:
+    FORMS &
+    Class & Id
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMS in HTML</title>
+    </head>
+    <body>
+        <!--FORM is a place in a webpage, where we collect the data from the user.
+            And use this information as per the need
+            So, Login Page, Signin Page, Request Page, Contact Me page
+            all these things are possible by using the Forms.
+            Let's say Login page - we collect this information and check if the user is genuine
+            Similarly, Request Page -> we collect this information to know the request of the user.
+            -->
+        <form action="/00000.html">
+            <!--Form is a tag that activates use of a form-->
+            <!--action is a form attribute, that let's the system know where to navigate once the 
+                form is submitted.-->  
+            <!--To fetch the data, we need a slot for the user to keyin the data-->
+            <input type="text" placeholder="Enter Your First Name here"><br>
+            <input type="text" placeholder="Enter Your Second Name here">
+            <!--input is a tag that lets user to Enter the data
+                Type=text, is a place where user can enter Characters
+                like mailid, first name, last name etc.
+                placeholder is a attribute that puts faded text
+                that works as a message / type of data to keyin-->
+            <!--we can also do this-->
+            <p>Please enter your comments here <input type="text" placeholder="Comments"></p>
+            <!--We use the attribute type as password for password field
+                We use the attribute type as    value  to provide default value for any text field-->
+            <label for="Id1">
+                <!--label is just like a Sticky Notes, which we allocate one particular tag-->
+                <!--one of the use cases for this label is: Screen Reader.-->
+                <input type="text" value="Default Value" id="Id1">
+            </label>
+            <br>
+            <label for="ID1">
+                <input type="radio" value="Value1" name="Vals" id="ID1">Value1
+            </label>
+            <label for="ID2">
+                <input type="radio" value="Value2" name="Vals" id="ID2">Value2
+            </label>
+            <input type="radio" value="Value3" name="Vals">Value3
+            <input type="radio" value="Value4" name="Vals">Value4
+            <input type="radio" value="Value5" name="Vals">Value5
+            <!--type = radio is a list of options when, you provide options 
+                and ask them to select 1 out outit
+                type = checkbox is a list of options when, you provide options
+                and ask them to select all options that falls under his criteria
+                
+                Here you see, we have added a Label for first two options, 
+                it enables the users to select that radio button even by clicking on the 
+                text of that button, but for the rest of the things it will not work the same way.-->
+            <br>
+            <input type="checkbox" value="Value1" id="Val1">Value1
+            <input type="checkbox" value="Value2" id="Val2">Value2
+            <input type="checkbox" value="Value3" id="Val3">Value3
+            <input type="checkbox" value="Value4" id="Val4">Value4
+            <input type="checkbox" value="Value5" id="Val5">Value5
+
+            <!--Next is dropdown
+                Drop down is a set of values we provide, and ask them to choose from there-->
+            <br>
+            <select name="fruits" id="fruits">
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Grapes">Grapes</option>
+                <option value="Sapota">sapota</option>
+                <option value="Kiwi">Kiwi</option>  
+                <option value="Pears">Pears</option>
+            </select>
+
+            <!--Next part is feedback, 
+                as you know feedback/comments can't be a single line, 
+                so, we have a separate tag that is textarea.-->
+            <br><br><br>
+            <textarea name="feedback" placeholder="please provide your feedback" rows=10 cols=100>
+            <!--so, in this overall episode, we have provided class & id attributes
+                Let's learn that now. 
+                Class & Ids are something called as Identifiers/Categorizers 
+                Meaning, if we want to group a few items under one category, we can use Class
+                and if we want to identify any single item by we can assign an Id
+                
+                Everytag, can have, both the Class and Id
+                many tags can have one class name, 
+                but different tags cannot have same same ids
+                
+                We categorize these to apply styling, get to know values in that class etc.
+                -->
+        </form>
+    </body>
+</html>
